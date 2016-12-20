@@ -7,6 +7,7 @@ Here is a test of the custom matcher.
 ```javascript
 describe('toEqualMultiple', function() {
 
+    // include the custom matcher
     beforeEach(function() {
         jasmine.addMatchers({
             toEqualMultiple: function(util, customEqualityTesters) {
